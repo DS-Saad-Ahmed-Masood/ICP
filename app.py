@@ -2,7 +2,8 @@ import streamlit as st
 import numpy as np
 import pickle
 
-pipeline=pickle.load(open(r'C:\Users\SAM HP\Desktop\Streamlit Projects\ICP\pipeline.pkl','rb'))
+#pipeline=pickle.load(open(r'C:\Users\SAM HP\Desktop\Streamlit Projects\ICP\pipeline.pkl','rb'))
+pipeline=pickle.load(open('pipeline.pkl','rb'))
 
 # Define the Streamlit app
 def main():    
